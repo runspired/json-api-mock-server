@@ -79,7 +79,7 @@ module.exports = {
 Creating a model `foo`with a one-to-(one|none|many) relationship with
  another model `bar`
 
-```
+```js
 var faker = require('faker');
 var props = require('json-api-mock-server/lib/store/props');
 var between = require('json-api-mock-server/lib/utils/between');
@@ -102,7 +102,7 @@ module.exports = {
 Creating a model `foo`with a many-to-(one|none|many) relationship with
  another model `bar`
 
-```
+```js
 var faker = require('faker');
 var props = require('json-api-mock-server/lib/store/props');
 var between = require('json-api-mock-server/lib/utils/between');
