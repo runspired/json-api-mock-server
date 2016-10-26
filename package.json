@@ -1,14 +1,14 @@
 {
   "name": "json-api-mock-server",
-  "version": "0.0.2",
-  "description": "A JSON-API server to test your client data layers against.",
+  "version": "0.1.0",
+  "description": "A JSON-API mock server.",
   "repository": "git://github.com/runspired/json-api-mock-server.git",
   "directories": {},
   "scripts": {
     "start": "node server"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.12.0"
   },
   "author": "",
   "license": "MIT",
