@@ -1,6 +1,6 @@
 {
   "name": "json-api-mock-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JSON-API mock server.",
   "repository": "git://github.com/runspired/json-api-mock-server.git",
   "directories": {},
