@@ -121,3 +121,18 @@ module.exports = {
   e.g. returning `4` will cause `4` `bar` records to be instantiated.
 
 ## Scenarios
+
+Example `server/scenarios/default.js`
+
+```js
+module.exports = function(store) {
+  store.seed('user', 10);
+  store.seed('contacts', 200);
+};
+```
+
+- the count passed to `seed` is a minimum to create, additional instances
+  may be created during the seeding of the relationships of other record types
+  e.g. if `user` has `contacts` and `defaultValue` on model `user` is 5,
+  the total number of contacts generated is `5 * 10 + 200 = 250`.
+  
